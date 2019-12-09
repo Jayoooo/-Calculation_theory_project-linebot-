@@ -134,7 +134,7 @@ Every time `user` state is triggered to `advance` to another state, it will `go_
 					* Input: 選擇按鈕"大三上"
 						* state: third_1
 						* Reply: "科目選擇"
-						* Reply: 四個按鈕 1. 程設(一) 2. 計理 3. 微算機 4. 無線
+						* Reply: 四個按鈕 1. 作業系統 2. 計理 3. 微算機 4. 無線
 
 							* Input: 選擇任一科目按鈕
 								* Reply: 直接跳轉到該科目之Google雲端
