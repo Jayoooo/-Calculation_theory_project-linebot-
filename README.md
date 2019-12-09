@@ -106,38 +106,38 @@ Every time `user` state is triggered to `advance` to another state, it will `go_
 		  						* Reply: 直接跳轉到該科目之Google雲端
 
 			* Input: 選擇按鈕"大二"
-			* state: second
-	  		* Reply: "學期選擇"
-	  		* Reply: 兩個按鈕 1. 大二上 2. 大二下
+				* state: second
+	  			* Reply: "學期選擇"
+	  			* Reply: 兩個按鈕 1. 大二上 2. 大二下
 
-				* Input: 選擇按鈕"大二上"
-					* state: second_1
-		  			* Reply: "科目選擇"
-		  			* Reply: 四個按鈕 1. 資結 2. 數導 3. 工數 4. 機統
+					* Input: 選擇按鈕"大二上"
+						* state: second_1
+		  				* Reply: "科目選擇"
+		  				* Reply: 四個按鈕 1. 資結 2. 數導 3. 工數 4. 機統
 
-						* Input: 選擇任一科目按鈕
-							* Reply: 直接跳轉到該科目之Google雲端
+							* Input: 選擇任一科目按鈕
+								* Reply: 直接跳轉到該科目之Google雲端
 					  
-				* Input: 選擇按鈕"大二下"
-					* state: second_2
-	  				* Reply: "科目選擇"
-	  				* Reply: 四個按鈕 1. 計組 2. 離散 3. 演算法 4. JAVA
-						
-						* Input: 選擇任一科目按鈕
-	  						* Reply: 直接跳轉到該科目之Google雲端
+					* Input: 選擇按鈕"大二下"
+						* state: second_2
+						* Reply: "科目選擇"
+						* Reply: 四個按鈕 1. 計組 2. 離散 3. 演算法 4. JAVA
+							
+							* Input: 選擇任一科目按鈕
+								* Reply: 直接跳轉到該科目之Google雲端
 
 			* Input: 選擇按鈕"大三"
-			* state: third
-	  		* Reply: "學期選擇"
-	  		* Reply: 一個按鈕 1. 大三上
+				* state: third
+	  			* Reply: "學期選擇"
+	  			* Reply: 一個按鈕 1. 大三上
 
-				* Input: 選擇按鈕"大三上"
-					* state: third_1
-		  			* Reply: "科目選擇"
-		  			* Reply: 四個按鈕 1. 程設(一) 2. 計理 3. 微算機 4. 無線
+					* Input: 選擇按鈕"大三上"
+						* state: third_1
+						* Reply: "科目選擇"
+						* Reply: 四個按鈕 1. 程設(一) 2. 計理 3. 微算機 4. 無線
 
-						* Input: 選擇任一科目按鈕
-							* Reply: 直接跳轉到該科目之Google雲端
+							* Input: 選擇任一科目按鈕
+								* Reply: 直接跳轉到該科目之Google雲端
 				
 						  
 	* Input: "音樂"
