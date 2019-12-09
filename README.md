@@ -79,10 +79,32 @@ The initial state is set to `user`.
 Every time `user` state is triggered to `advance` to another state, it will `go_back` to `user` state after the bot replies corresponding message.
 
 * user
-	* Input: "go to state1"
-		* Reply: "I'm entering state1"
+	* Input: "考古"
+		* Reply: "年級選擇"
+		* Reply: 三個按鈕 1. 大一 2. 大二 3. 大三
 
-	* Input: "go to state2"
+			* Input: 選擇按鈕"大一"
+				* state: first
+		  		* Reply: "學期選擇"
+		  		* Reply: 兩個按鈕 1. 大一上 2. 大一下
+
+					* Input: 選擇按鈕"大一上"
+						* state: first_1
+		  				* Reply: "科目選擇"
+		  				* Reply: 三個按鈕 1. 程設(一) 2. 普物(一) 3. 計概
+
+							* Input: 選擇任一科目按鈕
+		  						* Reply: 直接跳轉到該科目之Google雲端
+						  
+					* Input: 選擇按鈕"大一下"
+						* state: first_2
+		  				* Reply: "科目選擇"
+		  				* Reply: 四個按鈕 1. 程設(二) 2. 普物(二) 3. 線代 4. 數導
+						
+							* Input: 選擇任一科目按鈕
+		  						* Reply: 直接跳轉到該科目之Google雲端
+						  
+	* Input: "音樂"
 		* Reply: "I'm entering state2"
 
 ## Deploy
