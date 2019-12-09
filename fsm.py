@@ -223,10 +223,6 @@ class TocMachine(GraphMachine):
                             uri='https://drive.google.com/open?id=1eKKPESEfyN8YmWCq_OC_T9XuFyGK0BzR'
                         ),
                         URITemplateAction(
-                            label='計概',
-                            uri='https://drive.google.com/open?id=1yPyTLjPKt65zlTIduLX7ZrRGF9MlgEfK'
-                        ),
-                        URITemplateAction(
                             label='線代',
                             uri='https://drive.google.com/open?id=1zPiF4tqFkfn0-DA2blyCPVdSfcQT__lr'
                         ),
